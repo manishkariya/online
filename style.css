@@ -1,0 +1,57 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.nav 
+{
+    width: 100;
+    height: auto;
+
+}
+.nav ul
+{
+    margin-left: 0%;
+    margin-left: 40%;
+}
+.nav ul li
+{
+    display: inline-block;
+    padding: 2px 20px;
+}
+.nav a
+{
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+@media only screen and (max-widhth:553px)
+{
+.nav ul 
+{ 
+         margin-left: 0% !important;
+
+}
+      .nav ul li
+      {
+        display: block;
+        pedding: 5px 25px;
+
+      }
+}
+.h4
+{
+    text-align: center;
+    text-shadow: 0cqmax;
+}
+.footer-navbar  li
+{
+    display: block ;
+}
